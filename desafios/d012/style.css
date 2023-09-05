@@ -10,13 +10,67 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 0px;    
 }
 
 header {
-    min-height: 150px;
     text-align: center;
+    min-height: 260px;
+    margin: auto;
     background-color: black;
     color: white;
-    margin: none;
+    
+}
+
+header h1 {
+    padding: 50px 0px 30px 0px;
+    font-family: var(--titulo);
+    font-size: 16vh;
+}
+
+header p {
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: justify;
+    font-family: var(--conteudo);
+    font-size: 6vh;
+}
+
+section {
+    padding: 50px 50px 50px 30px;
+}
+
+section#flor {
+    padding: 0px;
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+section#flor > p {
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 50px 50px 50px 30px;
+}
+
+section#carta {
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
 }
